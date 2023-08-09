@@ -1,0 +1,58 @@
+/* Navbar.css */
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+/* Base styles for the navbar */
+.navbar {
+  background-color: #333; /* Background color for the navbar */
+  padding: 10px; /* Padding around the navbar */
+  display: flex; /* Flexbox to arrange content */
+  align-items: center; /* Vertically center the content in the navbar */
+}
+.navbar nav{
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: larger;
+ 
+}
+
+/* Styles for the brand/logo */
+.navbar-brand {
+  font-size: 1.5rem; /* Font size for the brand/logo */
+  color: #fff; /* Text color for the brand/logo */
+  text-decoration: none; /* Remove underline from the brand/logo */
+}
+.navbar nav ul{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+/* Styles for the navigation links */
+.navbar-nav {
+  list-style: none; /* Remove default list style from the navigation links */
+  display: flex; /* Flexbox to arrange the navigation links horizontally */
+  align-items: center; /* Vertically center the navigation links */
+  margin-left: auto; /* Push the navigation links to the right */
+}
+
+.nav-item {
+  margin-left: 20px; /* Margin between the navigation links */
+}
+
+.nav-link {
+  color: #fff; /* Text color for the navigation links */
+  text-decoration: none; /* Remove underline from the navigation links */
+  padding: 8px 12px; /* Padding around the navigation links */
+  border-radius: 4px; /* Rounded corners for the navigation links */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  
+}
+
+.nav-link:hover {
+  background-color: #555; /* Background color on hover */
+}
+
+/* Styles for the active link */
+.active {
+  background-color: #555; /* Background color for the active link */
+}

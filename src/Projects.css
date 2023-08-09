@@ -1,0 +1,19 @@
+
+/* src/Card.css */
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .card-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  

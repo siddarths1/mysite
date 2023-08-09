@@ -1,0 +1,12 @@
+/* Home.css */
+.home-container {
+    height: 100vh; /* Set the container height to 100% of the viewport height */
+    background-image: url('./assets/Hello.png'); /* Replace with the actual image path */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Center the image horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Set text color for the content on top of the image */
+  }
+  
